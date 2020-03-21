@@ -1,0 +1,204 @@
+.navbar {
+  background-color: #3F51B5;
+}
+
+.global-nav .col-2 {
+  background-color: #3F51B5;
+  margin: 1px;
+  padding: 19px 60px;
+  color: white;
+}
+
+.global-nav .col-2:hover {
+  background-color: red;
+}
+
+.global-nav .active {
+  background-color: red;
+}
+
+.top-image {
+  position: relative;
+}
+
+.top-image img {
+  width: 100vw;
+}
+
+.top-image .top-text {
+  position: absolute;
+  top: 25vw;
+  left: 35vw;
+}
+
+#contact {
+  width: 100vw;
+  height: auto;
+  background-color: #EFEFEF;
+  padding-bottom: 80px;
+}
+
+#contact h2 {
+  padding-top: 30px;
+}
+
+#contact hr {
+  width: 76px;
+  height: 5px;
+  background-color: #3F51B5;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#contact span {
+  border-radius: 20px;
+}
+
+#contact form {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#contact .row {
+  padding-right: 43px;
+  padding-left: 50px;
+}
+
+#contact .row input[type="text"],
+#contact .row input[type="email"],
+#contact .row #select,
+#contact .row textarea {
+  border-radius: 0;
+}
+
+#contact .row #select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("img/select-arrow.png") right 2% top 50% no-repeat;
+}
+
+#contact .row input[type="radio"] {
+  display: none;
+}
+
+#contact .row .radio-input + label {
+  padding-left: 20px;
+  position: relative;
+  margin-right: 20px;
+}
+
+#contact .row .form-check-input + label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+#contact .row .form-check-input:checked + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  width: 17px;
+  height: 17px;
+  background: #3F51B5;
+  border-radius: 50%;
+}
+
+#contact .row .label-text {
+  font-size: 14px;
+  position: relative;
+  top: 7px;
+}
+
+#contact .row input[type="checkbox"] {
+  opacity: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  position: absolute;
+}
+
+#contact .row input[type="checkbox"] + label::before {
+  display: inline-block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-right: .5rem;
+}
+
+#contact .row input[type="checkbox"]:checked + label::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27.071' height='21.071' viewBox='0 0 27.071 21.071'%3E%3Cdefs%3E%3Cstyle%3E.a{fill:none;stroke:%233f51b5;stroke-linecap:round;stroke-width:5px;}%3C/style%3E%3C/defs%3E%3Cg transform='translate(2431.036 -697.964) rotate(90)'%3E%3Cline class='a' x2='14' y2='14' transform='translate(701.5 2407.5)'/%3E%3Cline class='a' y1='6' x2='6' transform='translate(709.5 2421.5)'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact .row .checkbox-text span {
+  position: relative;
+  bottom: 8px;
+  font-size: 14px;
+}
+
+#contact .row .checkbox-text span a {
+  border-bottom: solid 1px #333333;
+  text-decoration: none;
+}
+
+#contact #submit-button .btn {
+  background-color: #3F51B5;
+  padding: 14px 86px;
+  color: white;
+  margin-bottom: 30px;
+  opacity: 0.8;
+  background-image: url("img/contact-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 5% top 50%;
+}
+
+#contact #submit-button .btn:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .global-nav,
+  .top-image {
+    display: none;
+  }
+  #contact form {
+    width: 92vw;
+    margin: 0;
+  }
+  .row {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100vw;
+  }
+  #submit-button {
+    width: 100vw;
+  }
+  #submit-button .btn {
+    width: 70vw;
+  }
+  #contact .row .radio-3 {
+    position: relative;
+    top: 18px;
+  }
+  #contact .row .form-check-input + .radio3-label::before {
+    position: absolute;
+    top: 15px;
+  }
+  #contact .row .form-check-input:checked + .radio3-label::after {
+    position: absolute;
+    top: 21px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
