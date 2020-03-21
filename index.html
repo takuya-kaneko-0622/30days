@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="logo mr-auto ml-auto">
+                <a class="navbar-brand" href="#"><img src="img/logo/logo.png" alt="ヘッダーロゴ"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="global-nav">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col-2 active">Menu1</div>
+                <div class="col-2">Menu2</div>
+                <div class="col-2">Menu3</div>
+                <div class="col-2">Menu4</div>
+                <div class="col-2">Menu5</div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="top-image">
+        <img src="img/mainvisual.png">
+        <div class="top-text text-center">
+            <h1>一番伝えたいことを書く</h1>
+            <p>リードリードリード</p>
+            <button class="btn btn-primary">お問い合わせ</button>
+    
+        </div>
+        
+    </div>
+
+
+<div id="contact">
+  <div class="container">
+
+    <h2 class="h2 text-center">Contact</h2>
+    <hr>
+    <form>
+        <div class="form-group row mb-4 pt-5">
+            <label for="name" class="col-md-4 col-12">お名前<br><span class="badge badge-danger">必須</span></label>
+            <input type="text" class="form-control col-md-8 col-xs-12" id="name" placeholder="山田太郎">
+          </div>
+        <div class="form-group row mb-4">
+            <label for="email" class="col-md-4">メールアドレス<br><span class="badge badge-danger">必須</span></label>
+          <input type="email" class="form-control col-md-8" id="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group row mb-4">
+          <label for="select" class="col-md-4">お問い合わせ種別</label>
+          <select class="form-control col-md-8" id="select">
+            <option>セレクト１</option>
+            <option>セレクト２</option>
+            <option>セレクト３</option>
+          </select>
+        </div>
+        <div class="form-group row mb-4">
+          <label for="textarea" class="col-md-4">お問い合わせ内容</label>
+          <textarea class="form-control col-md-8" id="textarea" rows="8" placeholder="お問い合わせを入力してください"></textarea>
+        </div> 
+        <div class="radio row mb-4">
+            <div class="form-check mr-4">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <span class="ml-3 label-text">ラジオ１</span>
+                </label>
+            </div>
+            <div class="form-check mr-4">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  <span class="ml-3 label-text">ラジオ２</span>
+                </label>
+            </div>
+            <div class="form-check mr-4">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                <label class="form-check-label radio3-label" for="exampleRadios3">
+                  <span class="ml-3 label-text radio-3">ラジオ３</span>
+                </label>
+            </div>
+        </div>
+        <div class="form-group form-check row mb-4 mt-5 text-center">
+          <input type="checkbox" id="exampleCheck1">
+          <label class="form-check-label checkbox-text" for="exampleCheck1"><span class="ml-2"><a href="#">プライバシーポリシー</a>に同意する</span></label>
+        </div>
+        <div id="submit-button" class="text-center">
+          <button type="submit" class="btn row">送信する</button>
+        </div>
+      </form>
+
+    </div>
+</div>
+    
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
